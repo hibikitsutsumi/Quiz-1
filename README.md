@@ -1,28 +1,39 @@
 Part1 
 a 
-if the number is odd and <=100
-Yes- add it up
-No - Not valid 
+number=1
+sum=0
 
-print sum 
+sum= sum+number 
+increment by 2
+number=number+2
+
+if the number <=100
+Yes- go to the previous step
+No - print sum 
 
 b
-if the number is even and <=100
-Yes- add it up
-No - Not valid 
+number=1
+sum=0
 
-print sum
+sum= sum+number
+increment by 1
+number=number+1
+
+if the number <=100
+Yes- go to the previous step
+No - print sum 
 
 c
-if the number is between 2 arbitary 
-Yes- add it up 
-No - NOt valid 
+number=1 
+sum=0
 
-print sum 
+sum= sum=number
+increment by 1
+number=number+1
+
+if number is between 2 arbitrary 
+Yes- print sum
+No - not valid 
 
 Part2
-if the number is the smallest and <=100
-Yes- add it up with the largest number which is <=100
-No - Not valid 
- 
-Print sum 
+
